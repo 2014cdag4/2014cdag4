@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+網際鼓式煞車設計(2ag4)
+===
+github連結
+40123107: https://github.com/40123107
+40123120: https://github.com/40123120
+cdag4: https://github.com/2014cdag4/2014cdag4
+
+cmsimply連結
+40123107: https://github.com/40123107
+40123120: https://github.com/40123120
+40123150: http://cdg4-40123150.rhcloud.com/
+===
+=======
 第八週 小考報告
 1.(第一題) 請寫一個執行時可以列出 9×9 乘法表的網際 Python 程式, 然後 Push 到個人 bitbucket 空間, 而且同步指到 OpenShift 個人帳號上執行.
 
@@ -5,6 +19,7 @@
 http://cdg4-40123150.rhcloud.com/example/
 
 2.(第二題) 請將上述執行過程錄為 flv 後, 上傳到個人的 Vemeo 空間中, 並將網址回報到各組網站 (dokuwiki 與 CMSimply)與報告中, 並且將相關心得與報告連結登錄到 wiki.mde.tw 第八週的分組頁面中.
+>>>>>>> c5a1aa957ca7851bfaccd60495703d489083873e
 
 操作影片網址
 http://vimeo.com/92000408
