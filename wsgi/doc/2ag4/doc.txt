@@ -1,9 +1,14 @@
 網際鼓式煞車設計(2ag4)
 ===
+github連結
+40123107: https://github.com/40123107
+40123120: https://github.com/40123120
+cdag4: https://github.com/2014cdag4/2014cdag4
 
-有關鼓式煞車
-
-程式設計架構
+cmsimply連結
+40123107: https://github.com/40123107
+40123120: https://github.com/40123120
+40123150: http://cdg4-40123150.rhcloud.com/
 ===
 
 鼓式煞車
