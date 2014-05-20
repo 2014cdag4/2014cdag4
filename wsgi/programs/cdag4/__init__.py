@@ -24,7 +24,7 @@ class CDAG4(object):
     則程式啟動後, 可以利用 /cdag4/cube1 呼叫函式執行
     '''
     @cherrypy.expose
-    def cube1(self, *args, **kwargs):
+    def cube1(self, a, b,c):
         '''
     // 假如要自行打開特定零件檔案
     // 若第三輸入為 false, 表示僅載入 session, 但是不顯示
@@ -65,14 +65,14 @@ volume=0;
 count=0;
 try
 {
-    for(i=0;i<5;i++)
-    {
-        myf = 100;
-        myn = myf + i*10;
+    var a,b,c;
+    a='''+a+''';
+    b='''+b+''';
+    c='''+c+''';
         // 設定變數值, 利用 ModelItem 中的 CreateDoubleParamValue 轉換成 Pro/Web.Link 所需要的浮點數值
-    aValue = pfcCreate ("MpfcModelItem").CreateDoubleParamValue(myn);
-    bValue = pfcCreate ("MpfcModelItem").CreateDoubleParamValue(myn);
-    cValue = pfcCreate ("MpfcModelItem").CreateDoubleParamValue(myn);
+    aValue = pfcCreate ("MpfcModelItem").CreateDoubleParamValue(a);
+    bValue = pfcCreate ("MpfcModelItem").CreateDoubleParamValue(b);
+    cValue = pfcCreate ("MpfcModelItem").CreateDoubleParamValue(c);
     // 將處理好的變數值, 指定給對應的零件變數
     a.Value = aValue;
     b.Value = bValue;
@@ -96,7 +96,7 @@ try
             //alert("pwlMdlSaveAs failed (" + newfile.ErrorCode + ")");
         //}
     } // for loop
-}
+
 catch (err)
 {
     alert ("Exception occurred: "+pfcGetExceptionType (err));
