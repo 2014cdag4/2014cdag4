@@ -24,7 +24,11 @@ class CDAG30(object):
     則程式啟動後, 可以利用 /cdag30/cube1 呼叫函式執行
     '''
     @cherrypy.expose
+<<<<<<< HEAD
     def cube1(self):
+=======
+    def cube1(self, *args, **kwargs):
+>>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
         '''
     // 假如要自行打開特定零件檔案
     // 若第三輸入為 false, 表示僅載入 session, 但是不顯示
@@ -58,13 +62,20 @@ var solid = session.CurrentModel;
 
 var a, b, c, i, j, aValue, bValue, cValue, volume, count;
 // 將模型檔中的 a 變數設為 javascript 中的 a 變數
+<<<<<<< HEAD
 a = solid.GetParam("W");
 b = solid.GetParam("L");
 c = solid.GetParam("H");
+=======
+a = solid.GetParam("a");
+b = solid.GetParam("b");
+c = solid.GetParam("c");
+>>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
 volume=0;
 count=0;
 try
 {
+<<<<<<< HEAD
     var L, W, H;
     L =50;
     W =100;
@@ -83,6 +94,18 @@ try
     a.Value = aValue;
     b.Value = bValue;
     c.Value = cValue;
+=======
+    for(i=0;i<5;i++)
+    {
+        myf = 100;
+        myn = myf + i*10;
+        // 設定變數值, 利用 ModelItem 中的 CreateDoubleParamValue 轉換成 Pro/Web.Link 所需要的浮點數值
+    aValue = pfcCreate ("MpfcModelItem").CreateDoubleParamValue(myn);
+    bValue = pfcCreate ("MpfcModelItem").CreateDoubleParamValue(myn);
+    // 將處理好的變數值, 指定給對應的零件變數
+    a.Value = aValue;
+    b.Value = bValue;
+>>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
     //零件尺寸重新設定後, 呼叫 Regenerate 更新模型
     solid.Regenerate(void null);
     //利用 GetMassProperty 取得模型的質量相關物件
@@ -101,7 +124,11 @@ try
     //if (!newfile.Status) {
             //alert("pwlMdlSaveAs failed (" + newfile.ErrorCode + ")");
         //}
+<<<<<<< HEAD
 
+=======
+    } // for loop
+>>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
 }
 catch (err)
 {

@@ -404,6 +404,7 @@ session.GetModelWindow (assembly).Repaint();
     '''
         return outstring
 
+<<<<<<< HEAD
 class MAN(object):
     # 各組利用 index 引導隨後的程式執行
     @cherrypy.expose
@@ -1248,3 +1249,5 @@ axis_plane_assembly(session, assembly, transf, featID, 5,
 </html>
 '''
         return outstring
+=======
+>>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
