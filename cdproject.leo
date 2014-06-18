@@ -26,23 +26,12 @@
 <v t="2014spring.20140506093255.1795"><vh>組立約束條件</vh></v>
 <v t="2014spring.20140506093255.1796"><vh>組立 0 程式</vh></v>
 </v>
-<<<<<<< HEAD
-<v t="2014spring.20140508134612.2129"><vh>第十二週任務</vh>
-<v t="2014spring.20140513154549.2535"><vh>組立約束條件屬性</vh></v>
-</v>
-<v t="course-mde-tw.20140417093332.2027" a="E"><vh>@path wsgi</vh>
-<v t="course-mde-tw.20140417093332.2028" a="E"
-expanded="course-mde-tw.20140417093332.2030,"><vh>@file application</vh></v>
-<v t="2014spring.20140508134612.2197" a="E"
-expanded="2014spring.20140508134612.2221,"><vh>@file cmsimply.py</vh></v>
-=======
 <v t="2014spring.20140508134612.2129" a="E"><vh>第十二週任務</vh>
 <v t="2014spring.20140513154549.2535"><vh>組立約束條件屬性</vh></v>
 </v>
 <v t="course-mde-tw.20140417093332.2027" a="E"><vh>@path wsgi</vh>
 <v t="course-mde-tw.20140417093332.2028" a="E"><vh>@file application</vh></v>
 <v t="2014spring.20140508134612.2197"><vh>@file cmsimply.py</vh></v>
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
 </v>
 <v t="2014spring.20140503125211.2097" a="E"><vh>分組程式開發</vh>
 <v t="2014spring.20140503125211.2098"><vh>@path wsgi/programs/cdag1</vh>
@@ -53,53 +42,6 @@ expanded="2014spring.20140508134612.2221,"><vh>@file cmsimply.py</vh></v>
 </v>
 <v t="2014spring.20140513092629.1905"><vh>@path wsgi/programs/cdag3</vh>
 <v t="2014spring.20140513092629.1906"><vh>@edit __init__.py</vh></v>
-<<<<<<< HEAD
-<v t="2014pythonE.20140616203015.1980"><vh>@edit remsub6.py</vh></v>
-</v>
-<v t="2014spring.20140513154549.2217"><vh>@path wsgi/programs/cdag4</vh>
-<v t="2014spring.20140513154549.2218"><vh>@edit __init__.py</vh></v>
-</v>
-<v t="kmolII_lite.20140513162816.2130"><vh>@path wsgi/programs/cdag5</vh>
-<v t="kmolII_lite.20140513162816.2131"><vh>@edit __init__.py</vh></v>
-<<<<<<< HEAD
-=======
-<v t="kmolII_lite.20140603221750.1809"><vh>@edit man.py</vh></v>
-<v t="kmolII_lite.20140603221750.1811"><vh>@edit man2.py</vh></v>
-<v t="kmolII_lite.20140603221750.1807"><vh>@edit remsub6.py</vh></v>
-</v>
-<v t="2014pythonE.20140520190326.1947"><vh>@path wsgi/programs/cdag6</vh>
-<v t="2014pythonE.20140520190326.1948"><vh>@edit __init__.py</vh></v>
-</v>
-<v t="kmolII_lite.20140603113815.1803"><vh>@path wsgi/programs/cdag7</vh>
-<v t="kmolII_lite.20140603113815.1804"><vh>@edit __init__.py</vh></v>
-<v t="kmolII_lite.20140603113815.1814"><vh>@edit man.py</vh></v>
-<v t="kmolII_lite.20140603113815.1812"><vh>@edit man2.py</vh></v>
-<v t="kmolII_lite.20140603113815.1810"><vh>@edit remsub6.py</vh></v>
-</v>
-<v t="2014pythonE.20140520234911.1956"><vh>@path wsgi/programs/cdag8</vh>
-<v t="2014pythonE.20140520234911.1957"><vh>@edit __init__.py</vh></v>
-</v>
-<v t="kmolII_lite.20140519210900.2176"><vh>@path wsgi/programs/cdag9</vh>
-<v t="kmolII_lite.20140519210900.2177"><vh>@edit __init__.py</vh></v>
->>>>>>> a1b503c585a6404212543ed0f4aeb5cf5b450ed3
-</v>
-<v t="2014spring.20140513154549.2225" a="E"><vh>@path wsgi/programs/cdag10</vh>
-<v t="2014spring.20140513154549.2226"><vh>@edit __init__.py</vh></v>
-<v t="kmolII_lite.20140527100048.2066"><vh>@edit man2.py</vh></v>
-<v t="kmolII_lite.20140610090944.1816"><vh>@edit remsub6.py</vh></v>
-</v>
-<<<<<<< HEAD
-<v t="2014spring.20140513154549.2221" a="E"><vh>@path wsgi/programs/cdag14</vh>
-=======
-<v t="kmolII_lite.20140519204745.1773"><vh>@path wsgi/programs/cdag11</vh>
-<v t="kmolII_lite.20140519204745.1774"><vh>@edit __init__.py</vh></v>
-</v>
-<v t="kmolII_lite.20140520211255.2555"><vh>@path wsgi/programs/cdag12</vh>
-<v t="kmolII_lite.20140520211255.2556"><vh>@edit __init__.py</vh></v>
-</v>
-<v t="2014spring.20140513154549.2221"><vh>@path wsgi/programs/cdag14</vh>
->>>>>>> a1b503c585a6404212543ed0f4aeb5cf5b450ed3
-=======
 </v>
 <v t="2014spring.20140513154549.2217" a="E"><vh>@path wsgi/programs/cdag4</vh>
 <v t="2014spring.20140513154549.2218"><vh>@edit __init__.py</vh></v>
@@ -114,7 +56,6 @@ expanded="2014spring.20140508134612.2221,"><vh>@file cmsimply.py</vh></v>
 <v t="2014spring.20140513154549.2226"><vh>@edit __init__.py</vh></v>
 </v>
 <v t="2014spring.20140513154549.2221"><vh>@path wsgi/programs/cdag14</vh>
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
 <v t="2014spring.20140513154549.2222"><vh>@edit __init__.py</vh></v>
 </v>
 <v t="2014spring.20140513154549.2229"><vh>@path wsgi/programs/cdag16</vh>
@@ -123,21 +64,9 @@ expanded="2014spring.20140508134612.2221,"><vh>@file cmsimply.py</vh></v>
 <v t="2014spring.20140513092629.2151"><vh>@path wsgi/programs/cdag17</vh>
 <v t="2014spring.20140513092629.2152"><vh>@edit __init__.py</vh></v>
 </v>
-<<<<<<< HEAD
-<v t="2014spring.20140506174436.1831" a="E"><vh>@path wsgi/programs/cdag30</vh>
-<v t="2014spring.20140506174436.1832"><vh>@edit __init__.py</vh></v>
-<v t="2014spring.20140513154549.2534"><vh>@edit man.py</vh></v>
-<<<<<<< HEAD
-=======
-<v t="2014spring.20140521133830.2641"><vh>@edit man2.py</vh></v>
-<v t="2014spring.20140529085742.2200"><vh>@edit remsub6.py</vh></v>
-<v t="2014spring.20140612075518.1982"><vh>@edit gear.py</vh></v>
->>>>>>> a1b503c585a6404212543ed0f4aeb5cf5b450ed3
-=======
 <v t="2014spring.20140506174436.1831"><vh>@path wsgi/programs/cdag30</vh>
 <v t="2014spring.20140506174436.1832"><vh>@edit __init__.py</vh></v>
 <v t="2014spring.20140513154549.2534"><vh>@edit man.py</vh></v>
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
 </v>
 </v>
 <v t="course-mde-tw.20140417093332.2058" a="E"><vh>利用 pandoc 進行格式轉換</vh>
@@ -205,8 +134,6 @@ expanded="2014spring.20140508134612.2221,"><vh>@file cmsimply.py</vh></v>
 </vnodes>
 <tnodes>
 <t tx="123.20140502221015.1628"></t>
-<<<<<<< HEAD
-=======
 <t tx="123.20140616200552.2065">@language javascript
 /*設計一個零件組立函示
 get 組立
@@ -608,7 +535,6 @@ var beam_3 = one_axis_two_plane_assembly(work_directory + 'beam_3.prt', session,
  
 assembly.Regenerate(void null);
 session.GetModelWindow(assembly).Repaint();</t>
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
 <t tx="2014pythonE.20140422152422.1669">配合 2014cda 專案
 
 2014cdaproject@gmail.com
@@ -714,11 +640,7 @@ d = c.scanAllDirectives(p)
 filenames = ['title.txt', '2bg1/doc.txt', '2bg2/doc.txt', '2bg3/doc.txt', '2bg5/doc.txt', '2bg15/doc.txt', '2bg13/doc.txt', '2bg9/doc.txt']
 '''
 # 定義要合併檔案的共同目錄
-<<<<<<< HEAD
-directory = "V:/project/2014cda/wsgi/doc/"
-=======
 directory = "V:/2014cda/wsgi/doc/"
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
 # 定義一個空數列
 filenames = []
 for (path, dirs, files) in os.walk(directory):
@@ -731,11 +653,7 @@ filenames.sort(key=natural_keys)
 # 利用 insert 以 0 為索引, 將 title.txt 放在數列最前頭
 filenames.insert(0, directory+"title.txt")
 # 以下將依據 filenames 數列中的檔案合併為 result.txt 之後再進行文書處理轉換
-<<<<<<< HEAD
-with open('V:/project/2014cda/wsgi/pandoc/result.txt', 'w', encoding="utf-8") as outfile:
-=======
 with open('V:/2014cda/wsgi/pandoc/result.txt', 'w', encoding="utf-8") as outfile:
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
     for fname in filenames:
         #fname = directory+fname
         with open(fname, encoding="utf-8") as infile:
@@ -743,20 +661,12 @@ with open('V:/2014cda/wsgi/pandoc/result.txt', 'w', encoding="utf-8") as outfile
                 outfile.write(line)
             outfile.write("\n\n")
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
 # 將目錄指到 pandoc
 mandir = d.get('path') + "/wsgi/pandoc"
 g.es(mandir)
 os.chdir(mandir)
 # 先轉一份 html 
 os.system("V:\\apps\\pandoc\\pandoc.exe -s result.txt -o result.html")
-<<<<<<< HEAD
-
-=======
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
 # 利用 pandoc 將 demo.txt 轉為 demo.tex, 在此決定是否要有 toc
 os.system("V:\\apps\\pandoc\\pandoc.exe -s result.txt --toc -o result.tex")
 # 中文設定必須要放在 begin document 之前
@@ -1430,11 +1340,6 @@ Github 免費帳號特性:
 免費帳號只能使用 public 倉儲
 
 沒有限制 collaborators 個數, 適合多協同人員執行開放專案使用
-<<<<<<< HEAD
-
-W16 周更新
-=======
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
 </t>
 <t tx="course-mde-tw.20140422171455.1745">在 Github 倉儲中將 OpenShift 倉儲設為 remote 倉儲
 
