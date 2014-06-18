@@ -14,7 +14,6 @@ class CDAG1(object):
 <a href="/static/fourbar.7z">fourbar.7z</a>(滑鼠右鍵存成 .7z 檔案)<br />
 '''
         return outstring
-<<<<<<< HEAD
     @cherrypy.expose
     def test(self, w, h,l):
         '''
@@ -98,9 +97,6 @@ catch (err)
     </html>
     '''
         return outstring
-=======
-    
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
     ''' 
     假如採用下列規畫
     

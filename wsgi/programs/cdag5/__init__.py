@@ -9,20 +9,15 @@ class CDAG5(object):
 這是 2014CDA 協同專案下的 cdag5 分組程式開發網頁, 以下為 W12 的任務執行內容.<br />
 <!-- 這裡採用相對連結, 而非網址的絕對連結 (這一段為 html 註解) -->
 <a href="cube1">cdag5 正方體參數繪圖</a>(尺寸變數 a, b, c)<br /><br />
-<<<<<<< HEAD
+
 <a href="fourbar1">四連桿組立</a><br /><br />
-=======
+
 <a href="fourbar1">cdag5 四連桿組立</a><br /><br />
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
+
 請確定下列連桿位於 V:/home/fourbar 目錄中, 且開啟空白 Creo 組立檔案.<br />
 <a href="/static/fourbar.7z">fourbar.7z</a>(滑鼠右鍵存成 .7z 檔案)<br />
 '''
         return outstring
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
     ''' 
     假如採用下列規畫
     
@@ -32,11 +27,11 @@ class CDAG5(object):
     則程式啟動後, 可以利用 /cdag5/cube1 呼叫函式執行
     '''
     @cherrypy.expose
-<<<<<<< HEAD
+
     def cube1(self):
-=======
+
     def cube1(self, *args, **kwargs):
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
+
         '''
     // 假如要自行打開特定零件檔案
     // 若第三輸入為 false, 表示僅載入 session, 但是不顯示
@@ -62,28 +57,28 @@ class CDAG5(object):
     </head>
     <body>
     <script type="text/javascript">
-var session = pfcGetProESession ();
+    var session = pfcGetProESession ();
 
-// 以目前所開啟的檔案為 solid model
-// for volume
-var solid = session.CurrentModel;
+    // 以目前所開啟的檔案為 solid model
+    // for volume
+    var solid = session.CurrentModel;
 
-var a, b, c, i, j, aValue, bValue, cValue, volume, count;
-// 將模型檔中的 a 變數設為 javascript 中的 a 變數
-<<<<<<< HEAD
-a = solid.GetParam("W");
-b = solid.GetParam("L");
-c = solid.GetParam("H");
-=======
-a = solid.GetParam("a");
-b = solid.GetParam("b");
-c = solid.GetParam("c");
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
-volume=0;
-count=0;
-try
-{
-<<<<<<< HEAD
+    var a, b, c, i, j, aValue, bValue, cValue, volume, count;
+    // 將模型檔中的 a 變數設為 javascript 中的 a 變數
+
+    a = solid.GetParam("W");
+    b = solid.GetParam("L");
+    c = solid.GetParam("H");
+
+    a = solid.GetParam("a");
+    b = solid.GetParam("b");
+    c = solid.GetParam("c");
+
+    volume=0;
+    count=0;
+    try
+    {
+
     var L, W, H;
     L =50;
     W =100;
@@ -92,7 +87,7 @@ try
     aValue = pfcCreate ("MpfcModelItem").CreateDoubleParamValue(L);
     bValue = pfcCreate ("MpfcModelItem").CreateDoubleParamValue(W);
     cValue = pfcCreate ("MpfcModelItem").CreateDoubleParamValue(H);
-=======
+
     for(i=0;i<5;i++)
     {
         myf = 100;
@@ -101,7 +96,7 @@ try
     aValue = pfcCreate ("MpfcModelItem").CreateDoubleParamValue(myn);
     bValue = pfcCreate ("MpfcModelItem").CreateDoubleParamValue(myn);
     cValue = pfcCreate ("MpfcModelItem").CreateDoubleParamValue(myn);
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
+
     // 將處理好的變數值, 指定給對應的零件變數
     a.Value = aValue;
     b.Value = bValue;
@@ -122,13 +117,13 @@ try
     //solid.Export("v:/tmp/filename_5_"+count+".stl", stl_instrs); 
     // 結束測試轉檔
     //if (!newfile.Status) {
-            //alert("pwlMdlSaveAs failed (" + newfile.ErrorCode + ")");
-        //}
-<<<<<<< HEAD
+    //alert("pwlMdlSaveAs failed (" + newfile.ErrorCode + ")");
+    //}
 
-=======
+
+
     } // for loop
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
+
 }
 catch (err)
 {
@@ -154,23 +149,22 @@ catch (err)
 if (!pfcIsWindows())
 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
 var session = pfcGetProESession();
-<<<<<<< HEAD
+
 // 設定 config option
 session.SetConfigOption("comp_placement_assumptions","no");
 // 建立擺放零件的位置矩陣
 var identityMatrix = pfcCreate ("pfcMatrix3D");
-=======
+
 // 設定 config option, 不要使用元件組立流程中內建的假設約束條件
 session.SetConfigOption("comp_placement_assumptions","no");
 // 建立擺放零件的位置矩陣, Pro/Web.Link 中的變數無法直接建立, 必須透過 pfcCreate 建立
 var identityMatrix = pfcCreate("pfcMatrix3D");
 // 建立 identity 位置矩陣
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
 for (var x = 0; x < 4; x++)
 	for (var y = 0; y < 4; y++)
 	{
 		if (x == y)
-<<<<<<< HEAD
+
 			identityMatrix.Set (x, y, 1.0);
 		else
 			identityMatrix.Set (x, y, 0.0);
@@ -183,7 +177,7 @@ var model = session.CurrentModel;
 // 查驗有無 model, 或 model 類別是否為組立件
 if (model == void null || model.Type != pfcCreate ("pfcModelType").MDL_ASSEMBLY)
 throw new Error (0, "Current model is not an assembly.");
-=======
+
 			identityMatrix.Set(x, y, 1.0);
 		else
 			identityMatrix.Set(x, y, 0.0);
@@ -198,12 +192,12 @@ var model = session.CurrentModel;
 if (model == void null || model.Type != pfcCreate("pfcModelType").MDL_ASSEMBLY)
     throw new Error (0, "Current model is not an assembly.");
 // 將此模型設為組立物件
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
+
 var assembly = model;
 
 /**----------------------------------------------- link0 -------------------------------------------------------------**/
     //檔案目錄，建議將圖檔放置工作目錄下較方便使用
-<<<<<<< HEAD
+
 	var descr = pfcCreate ("pfcModelDescriptor").CreateFromFileName ("v:/home/fourbar/link0.prt");
 	// 若 link1.prt 在 session 則直接取用
 	var componentModel = session.GetModelFromDescr (descr);
@@ -212,10 +206,10 @@ var assembly = model;
 	//若 link1.prt 已經在 session 則放入組立檔中
 	if (componentModel != void null)
 	{
-		//注意這個 asmcomp 即為設定約束條件的本體
-		//asmcomp 為特徵物件,直接將零件, 以 transf 座標轉換放入組立檔案中
-		var asmcomp = assembly.AssembleComponent (componentModel, transf);
-=======
+    //注意這個 asmcomp 即為設定約束條件的本體
+    //asmcomp 為特徵物件,直接將零件, 以 transf 座標轉換放入組立檔案中
+    var asmcomp = assembly.AssembleComponent (componentModel, transf);
+
 	var descr = pfcCreate("pfcModelDescriptor").CreateFromFileName("v:/home/fourbar/link0.prt");
 	// 若 link1.prt 在 session 則直接取用
 	var componentModel = session.GetModelFromDescr(descr);
@@ -227,12 +221,12 @@ var assembly = model;
 		//注意這個 asmcomp 即為設定約束條件的本體
 		//asmcomp 為特徵物件, 直接將零件, 以 transf 座標轉換放入組立檔案中
 		var asmcomp = assembly.AssembleComponent(componentModel, transf);
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
+
 	}
 
 // 建立約束條件變數
 var constrs = pfcCreate("pfcComponentConstraints");
-<<<<<<< HEAD
+
 //設定組立檔中的三個定位面, 注意內定名稱與 Pro/E WF 中的 ASM_D_FRONT 不同, 而是 ASM_FRONT
 var asmDatums = new Array("ASM_FRONT", "ASM_TOP", "ASM_RIGHT");
 //設定零件檔中的三個定位面, 名稱與 Pro/E WF 中相同
@@ -249,13 +243,13 @@ for (var i = 0; i < 3; i++)
 	//設定組立參考面
 	var asmItem = assembly.GetItemByName (pfcCreate ("pfcModelItemType").ITEM_SURFACE, asmDatums [i]);
 	//若無對應的組立參考面, 則啟用互動式平面選擇表單 flag
-=======
-// 設定組立檔中的三個定位面, 注意內定名稱與 Pro/E WF 中的 ASM_D_FRONT 不同, 而是 ASM_FRONT
-// 組立檔案中的 Datum 名稱可以利用 View->plane tag display 查詢名稱
-// 建立組立參考面所組成的陣列
-var asmDatums = new Array("ASM_FRONT", "ASM_TOP", "ASM_RIGHT");
-// 設定零件檔中的三個定位面, 名稱與 Pro/E WF 中相同
-var compDatums = new Array("FRONT", "TOP", "RIGHT");
+
+    // 設定組立檔中的三個定位面, 注意內定名稱與 Pro/E WF 中的 ASM_D_FRONT 不同, 而是 ASM_FRONT
+    // 組立檔案中的 Datum 名稱可以利用 View->plane tag display 查詢名稱
+    // 建立組立參考面所組成的陣列
+    var asmDatums = new Array("ASM_FRONT", "ASM_TOP", "ASM_RIGHT");
+    // 設定零件檔中的三個定位面, 名稱與 Pro/E WF 中相同
+    var compDatums = new Array("FRONT", "TOP", "RIGHT");
 	// 建立 ids 變數, intseq 為 sequence of integers 為資料類別, 使用者可以經由整數索引擷取此資料類別的元件, 第一個索引為 0
            // intseq 等同 Python 的數列資料?
 	var ids = pfcCreate("intseq");
@@ -263,25 +257,25 @@ var compDatums = new Array("FRONT", "TOP", "RIGHT");
 	var path = pfcCreate("MpfcAssembly").CreateComponentPath(assembly, ids);
 	// 採用互動式設定相關的變數
 	var MpfcSelect = pfcCreate("MpfcSelect");
-// 利用迴圈分別約束組立與零件檔中的三個定位平面
-for (var i = 0; i < 3; i++)
-{
+    // 利用迴圈分別約束組立與零件檔中的三個定位平面
+    for (var i = 0; i < 3; i++)
+    {
 	// 設定組立參考面
 	var asmItem = assembly.GetItemByName (pfcCreate("pfcModelItemType").ITEM_SURFACE, asmDatums[i]);
 	// 若無對應的組立參考面, 則啟用互動式平面選擇表單 flag
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
+
 	if (asmItem == void null)
 	{
 		interactFlag = true;
 		continue;
 	}
-<<<<<<< HEAD
+
 	//設定零件參考面
 	var compItem = componentModel.GetItemByName (pfcCreate ("pfcModelItemType").ITEM_SURFACE, compDatums [i]);
-=======
+
 	// 設定零件參考面
 	var compItem = componentModel.GetItemByName (pfcCreate ("pfcModelItemType").ITEM_SURFACE, compDatums[i]);
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
+
 	// 若無對應的零件參考面, 則啟用互動式平面選擇表單 flag
 	if (compItem == void null)
 	{
@@ -290,21 +284,21 @@ for (var i = 0; i < 3; i++)
 	}
 	var asmSel = MpfcSelect.CreateModelItemSelection(asmItem, path);
 	var compSel = MpfcSelect.CreateModelItemSelection(compItem, void null);
-<<<<<<< HEAD
+
 	var constr = pfcCreate("pfcComponentConstraint").Create(pfcCreate ("pfcComponentConstraintType").ASM_CONSTRAINT_ALIGN);
 	constr.AssemblyReference = asmSel;
 	constr.ComponentReference = compSel;
 	constr.Attributes = pfcCreate ("pfcConstraintAttributes").Create (false, false);
 	// 將互動選擇相關資料, 附加在程式約束變數之後
 	constrs.Append (constr);
-=======
+
 	var constr = pfcCreate("pfcComponentConstraint").Create (pfcCreate ("pfcComponentConstraintType").ASM_CONSTRAINT_ALIGN);
 	constr.AssemblyReference = asmSel;
 	constr.ComponentReference = compSel;
 	constr.Attributes = pfcCreate("pfcConstraintAttributes").Create (false, false);
 	// 將互動選擇相關資料, 附加在程式約束變數之後
 	constrs.Append(constr);
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
+
 }
 
 // 設定組立約束條件
@@ -313,7 +307,7 @@ asmcomp.SetConstraints (constrs, void null);
 
 /**----------------------------------------------- link1 -------------------------------------------------------------**/
 var descr = pfcCreate ("pfcModelDescriptor").CreateFromFileName ("v:/home/fourbar/link1.prt");
-<<<<<<< HEAD
+
 var componentModel = session.GetModelFromDescr (descr);
 var componentModel = session.RetrieveModel(descr);
 if (componentModel != void null)
@@ -351,7 +345,7 @@ for (var i = 0; i < 2; i++)
 			continue;
 		}
                     // 依照相同的平面定位方式, 從 componentModel 中取出要組立的對應平面
-=======
+
 var componentModel = session.GetModelFromDescr(descr);
 var componentModel = session.RetrieveModel(descr);
 if (componentModel != void null)
@@ -385,14 +379,14 @@ for (var i = 0; i < 2; i++)
 			continue;
 		}
                       // 設定零件參考面, compItem 為 model item
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
+
 		var compItem = componentModel.GetItemByName (relationItem[i], compDatums [i]);
 		if (compItem == void null)
 		{
 			interactFlag = true;
 			continue;
 		}
-<<<<<<< HEAD
+
 		var MpfcSelect = pfcCreate("MpfcSelect");
                     // 根據 subPath 選擇 asmItem, 也就是次組立元件的定位平面
 		var asmSel = MpfcSelect.CreateModelItemSelection (asmItem, subPath);
@@ -411,7 +405,7 @@ for (var i = 0; i < 2; i++)
 		constrs.Append(constr);
 	}
 // 利用 constrs 約束關係設定 asmcomp 物件的組立約束
-=======
+
                       // 採用互動式設定相關的變數
 		var MpfcSelect = pfcCreate ("MpfcSelect");
 		var asmSel = MpfcSelect.CreateModelItemSelection (asmItem, subPath);
@@ -425,7 +419,7 @@ for (var i = 0; i < 2; i++)
 	}
 // 設定組立約束條件, 以 asmcomp 特徵進行約束條件設定
 // 請注意, 第二個變數必須為 void null 表示零件對零件進行約束, 若為 subPath, 則零件會與原始零件的平面進行約束
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
+
 asmcomp.SetConstraints (constrs, void null);
 
 	
@@ -585,17 +579,17 @@ session.GetModelWindow (assembly).Repaint();
     '''
         return outstring
 
-<<<<<<< HEAD
+
     @cherrypy.expose
     def nutcracker(self, *args, **kwargs):
 
-=======
+
     '''
     執行 twentylinks 必須先開一個組立檔案, 放入 link1.prt 之後再執行 Web.Link 程式
     '''
     @cherrypy.expose
     def twentylinks(self, *args, **kwargs):
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
+
         outstring = '''
     <!DOCTYPE html> 
     <html>
@@ -604,7 +598,7 @@ session.GetModelWindow (assembly).Repaint();
     <script type="text/javascript" src="/static/weblink/examples/jscript/pfcUtils.js"></script>
     </head>
     <body>
-<<<<<<< HEAD
+
     <script type="text/javascript">
 if (!pfcIsWindows())
 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
@@ -934,9 +928,9 @@ session.GetModelWindow (assembly).Repaint();
 </script>
 </body>
 </html>
-        '''
+'''
         return outstring
-=======
+
     </script><script language="JavaScript">
           if (!pfcIsWindows())
     netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
@@ -1054,4 +1048,4 @@ session.GetModelWindow (assembly).Repaint();
     </html>
     '''
         return outstring
->>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
+
