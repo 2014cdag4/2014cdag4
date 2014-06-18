@@ -155,11 +155,15 @@ try
     aValue = pfcCreate ("MpfcModelItem").CreateDoubleParamValue(myn);
     bValue = pfcCreate ("MpfcModelItem").CreateDoubleParamValue(myn);
 <<<<<<< HEAD
+<<<<<<< HEAD
     cValue = pfcCreate
 ("MpfcModelItem").CreateDoubleParamValue(myn);
 =======
     cValue = pfcCreate ("MpfcModelItem").CreateDoubleParamValue(myn);
 >>>>>>> 32debcc129e7a0e8030cf9c2b869a633fe4499a0
+=======
+    cValue = pfcCreate ("MpfcModelItem").CreateDoubleParamValue(myn);
+>>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
     // 將處理好的變數值, 指定給對應的零件變數
     a.Value = aValue;
     b.Value = bValue;
@@ -617,7 +621,11 @@ session.GetModelWindow (assembly).Repaint();
           constr.ComponentReference = compSel;
     // static pfcConstraintAttributes Create (boolean Force, boolean Ignore) 
     // 必須 Force execution of this constraint 才會抑制 comp_placement_assumptions 為 yes 的作動?
+<<<<<<< HEAD
           constr.Attributes = pfcCreate("pfcConstraintAttributes").Create(true, false);
+=======
+          constr.Attributes = pfcCreate ("pfcConstraintAttributes").Create (true, false);
+>>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
     // 將互動選擇相關資料, 附加在程式約束變數之後
           constrs.Append (constr);
         }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 組員
 ===
@@ -5,6 +6,8 @@
 40123154 謝正利
 40123158 蔡宗霖
 
+=======
+>>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
 第八週摘要報告
 ===
 
@@ -47,6 +50,7 @@ Bitbucket 連結
 https://bitbucket.org/40123137/week9
 Bitbucket 連結
 https://bitbucket.org/40123137/week9
+<<<<<<< HEAD
 
 
 
@@ -95,3 +99,5 @@ https://www.copy.com/browse/copy/w15_37.1
 本週得分 10分
 
 
+=======
+>>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
