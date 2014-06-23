@@ -192,13 +192,27 @@ import programs.cdag4.g4 as g4
 root.cdag4.phone = g4.phone()
 import programs.cdag5 as cdag5
 root.cdag5 = cdag5.CDAG5()
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> b2c72e15fbb2bc438ab2b56bfe0378d74b3863e6
+>>>>>>> 3d1587a4dd32ffff569f7c34d1ca7e3c3509b448
 import programs.cdag6 as cdag6
 root.cdag6 = cdag6.CDAG6()
 import programs.cdag9 as cdag9
 root.cdag9 = cdag9.CDAG9()
 import programs.cdag7 as cdag7
 root.cdag7 = cdag7.CDAG7()
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> b2c72e15fbb2bc438ab2b56bfe0378d74b3863e6
+>>>>>>> 3d1587a4dd32ffff569f7c34d1ca7e3c3509b448
 import programs.cdag10 as cdag10
 root.cdag10 = cdag10.CDAG10()
 import programs.cdag14 as cdag14
@@ -211,13 +225,16 @@ root.cdag16.man = cdag16_man.MAN()
 import programs.cdag17 as cdag17
 root.cdag17 = cdag17.CDAG17()
 
-
 # 以下為 cdag30 的模組導入與連結設定
 import programs.cdag30 as cdag30
 root.cdag30 = cdag30.CDAG30()
 import programs.cdag30.man as cdag30_man
 # 加入 cdag30 模組下的 man.py 且以子模組 man 對應其 MAN() 類別
 root.cdag30.man = cdag30_man.MAN()
+
+
+import programs.cdag4.g4 as cdag4
+root.cdag4.test = cdag4.Test()
 
 # 假如在 os 環境變數中存在 'OPENSHIFT_REPO_DIR', 表示程式在 OpenShift 環境中執行
 if 'OPENSHIFT_REPO_DIR' in os.environ.keys():

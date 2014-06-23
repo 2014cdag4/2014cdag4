@@ -1,3 +1,5 @@
+#@+leo-ver=4-thin
+#@+node:123.20140609202508.1764:@shadow g4.py
 import cherrypy
  
 # 這是 MAN 類別的定義
@@ -11,35 +13,37 @@ root.cdag30.man = cdag30_man.MAN()
 /cdag30/man/assembly
 # 呼叫 man.py 中 MAN 類別的 assembly 方法
 '''
-class phone(object):
+class Test(object):
     # 各組利用 index 引導隨後的程式執行
     @cherrypy.expose
     def index(self, *args, **kwargs):
         outstring = '''
-<<<<<<< HEAD
-這是 2014CDA 協同專案下的 cdag4 模組下的 phone 類別.<br /><br />
-<!-- 這裡採用相對連結, 而非網址的絕對連結 (這一段為 html 註解) -->
-<a href="assembly">執行  phone 類別中的 assembly 方法</a><br /><br />
-請確定下列零件於 V:/home/phone/ 目錄中, <br />
-<a href="/static/phone.7z">phone.7z</a>(滑鼠右鍵存成 .7z 檔案)<br />
-=======
 這是 2014CDA 協同專案下的 cdag30 模組下的 MAN 類別.<br /><br />
 <!-- 這裡採用相對連結, 而非網址的絕對連結 (這一段為 html 註解) -->
 <a href="assembly">執行  MAN 類別中的 assembly 方法</a><br /><br />
 請確定下列零件於 V:/home/lego/man 目錄中, 且開啟空白 Creo 組立檔案.<br />
 <a href="/static/lego_man.7z">lego_man.7z</a>(滑鼠右鍵存成 .7z 檔案)<br />
->>>>>>> 3d1587a4dd32ffff569f7c34d1ca7e3c3509b448
 '''
         return outstring
  
     @cherrypy.expose
     def assembly(self, *args, **kwargs):
-        outstring =          '''                <html>                <head>
+        outstring =          '''                <html>
+        #@nonl
+        #@<<script_begin>>
+        #@+node:123.20140609202508.1765:<<script_begin>>
+                <head>
                 <meta http-equiv="content-type" content="text/html;charset=utf-8">
                 <script type="text/javascript" src="/static/weblink/examples/jscript/pfcUtils.js"></script>
                 </head>
                 <body>
                 </script><script language="JavaScript">
+        #@nonl
+        #@-node:123.20140609202508.1765:<<script_begin>>
+        #@nl
+        #@        <<script>>
+        #@+node:123.20140609202508.1766:<<script>>
+        #@@language javascript
         //選擇型態 dictionary
         pfcModelItemType = pfcCreate("pfcModelItemType");
         relation_map = {
@@ -244,11 +248,7 @@ class phone(object):
         // 將此模型設為組立物件
         var assembly = model;
          
-<<<<<<< HEAD
-        var work_directory = 'V:/home/phone/';
-=======
         var work_directory = 'V:/2014cdag4/phone_dock/';
->>>>>>> 3d1587a4dd32ffff569f7c34d1ca7e3c3509b448
          
         //使用方式
         //test_assembly(使用的 session, 組立檔案, 參照座標準矩陣, 父組立零件ID, 欲組立零件位置,
@@ -273,38 +273,32 @@ class phone(object):
             ["align","align"],
             ["datum","axis"],["datum","axis"],
             ["DTM1", "A_1"], ["DTM1", "A_2"]);
-<<<<<<< HEAD
-            
-=======
->>>>>>> 3d1587a4dd32ffff569f7c34d1ca7e3c3509b448
         var body_id4 = test_assembly(session, assembly, transf, body_id1,work_directory + 'prt0002.prt',
             ["align","align"],
             ["datum","axis"],["datum","axis"],
             ["DTM1", "A_2"], ["DTM1", "A_2"]);
-<<<<<<< HEAD
-            
-        var body_id5 = test_assembly(session, assembly, transf, body_id,work_directory + 'prt0001.prt',
-            ["align","align"],
-            ["datum","axis"],["datum","axis"],
-            ["DTM2", "A_3"], ["DTM2", "A_3"]);
-            
-=======
         var body_id5 = test_assembly(session, assembly, transf, body_id,work_directory + 'prt0001.prt',
             ["align","align"],
             ["datum","axis","axis"],["datum","axis","axis"],
             ["DTM2", "A_3", "A_3"], ["DTM2", "A_3", "A_1"]);
          
->>>>>>> 3d1587a4dd32ffff569f7c34d1ca7e3c3509b448
         assembly.Regenerate(void null);
         session.GetModelWindow(assembly).Repaint();
+        #@nonl
+        #@-node:123.20140609202508.1766:<<script>>
+        #@nl
+        #@        <<script_end>>
+        #@+node:123.20140609202508.1767:<<script_end>>
         </script>
         </body>
         </html>
         '''
+        #@nonl
+        #@-node:123.20140609202508.1767:<<script_end>>
+        #@nl
 
 
-<<<<<<< HEAD
         return outstring
-=======
-        return outstring
->>>>>>> 3d1587a4dd32ffff569f7c34d1ca7e3c3509b448
+#@nonl
+#@-node:123.20140609202508.1764:@shadow g4.py
+#@-leo

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 協同產品設計(2ag3)
 ===
 
@@ -19,6 +20,15 @@ W12任務
 
 W12摘要報告
 ------------------
+=======
+W12任務(2ag3)
+===
+
+請各組將第九週考試的摘要報告放入 Github 協同專案中的分組報告區
+
+摘要報告
+===
+>>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
 
     第一題：
 
@@ -50,7 +60,11 @@ _cp_config = {
 # if there is no utf-8 encoding, no Chinese input available
 'tools.encode.encoding': 'utf-8',
 'tools.sessions.on' : True,
+<<<<<<< HEAD
 'tools.sessions.st\orage_type' : 'file',
+=======
+'tools.sessions.storage_type' : 'file',
+>>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119
 'tools.sessions.locking' : 'explicit',
 'tools.sessions.storage_path' : data_dir+'/tmp',
 # session timeout is 60 minutes
@@ -103,6 +117,7 @@ for i in range(1,399+1):
 
 解題心得：
 
+<<<<<<< HEAD
 可以利用程式創造多人帳密，一起管理網站，減少一個一個創建帳密，又會有被盜用的風險。
 
 W13摘要報告
@@ -250,3 +265,6 @@ Copy： https://copy.com/iVBIb9UzBxXA
 Vimeo影片:https://vimeo.com/97203961
 
 自評分數 : 75
+=======
+可以利用程式創造多人帳密，一起管理網站，減少一個一個創建帳密，又會有被盜用的風險。
+>>>>>>> 3ec3babf1685279391694ac3bd4b95ab0ef4b119

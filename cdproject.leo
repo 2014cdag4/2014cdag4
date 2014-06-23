@@ -26,14 +26,19 @@
 <v t="2014spring.20140506093255.1795"><vh>組立約束條件</vh></v>
 <v t="2014spring.20140506093255.1796"><vh>組立 0 程式</vh></v>
 </v>
-<v t="2014spring.20140508134612.2129"><vh>第十二週任務</vh>
+<v t="2014spring.20140508134612.2129" a="E"><vh>第十二週任務</vh>
 <v t="2014spring.20140513154549.2535"><vh>組立約束條件屬性</vh></v>
 </v>
 <v t="course-mde-tw.20140417093332.2027" a="E"><vh>@path wsgi</vh>
+<<<<<<< HEAD
 <v t="course-mde-tw.20140417093332.2028" a="E"
 expanded="course-mde-tw.20140417093332.2030,"><vh>@file application</vh></v>
 <v t="2014spring.20140508134612.2197"
 expanded="2014spring.20140508134612.2221,"><vh>@file cmsimply.py</vh></v>
+=======
+<v t="course-mde-tw.20140417093332.2028" a="E"><vh>@file application</vh></v>
+<v t="2014spring.20140508134612.2197"><vh>@file cmsimply.py</vh></v>
+>>>>>>> 3d1587a4dd32ffff569f7c34d1ca7e3c3509b448
 </v>
 <v t="2014spring.20140503125211.2097" a="E"><vh>分組程式開發</vh>
 <v t="2014spring.20140503125211.2098" a="E"><vh>@path wsgi/programs/cdag1</vh>
@@ -44,15 +49,29 @@ expanded="2014spring.20140508134612.2221,"><vh>@file cmsimply.py</vh></v>
 </v>
 <v t="2014spring.20140513092629.1905" a="E"><vh>@path wsgi/programs/cdag3</vh>
 <v t="2014spring.20140513092629.1906"><vh>@edit __init__.py</vh></v>
+<<<<<<< HEAD
 <v t="2014pythonE.20140616203015.1980"><vh>@edit remsub6.py</vh></v>
 <v t="2014pythonE.20140617093602.1912"><vh>@edit man.py</vh></v>
 </v>
 <v t="2014spring.20140513154549.2217" a="E"><vh>@path wsgi/programs/cdag4</vh>
 <v t="2014spring.20140513154549.2218"><vh>@edit __init__.py</vh></v>
 <v t="kmolII_lite.20140623191045.2080"><vh>@edit g4.py</vh></v>
+=======
+</v>
+<v t="2014spring.20140513154549.2217" a="E"><vh>@path wsgi/programs/cdag4</vh>
+<v t="2014spring.20140513154549.2218"><vh>@edit __init__.py</vh></v>
+<v t="123.20140616200552.2065"><vh>backup_script</vh></v>
+<v t="123.20140609202508.1764" a="E"><vh>@shadow g4.py</vh></v>
+<v t="kmolII_lite.20140610102829.1775" a="E"><vh>@shadow w16arm.py</vh></v>
+>>>>>>> 3d1587a4dd32ffff569f7c34d1ca7e3c3509b448
 </v>
 <v t="kmolII_lite.20140513162816.2130" a="E"><vh>@path wsgi/programs/cdag5</vh>
 <v t="kmolII_lite.20140513162816.2131"><vh>@edit __init__.py</vh></v>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+>>>>>>> 3d1587a4dd32ffff569f7c34d1ca7e3c3509b448
 <v t="kmolII_lite.20140603221750.1809"><vh>@edit man.py</vh></v>
 <v t="kmolII_lite.20140603221750.1811"><vh>@edit man2.py</vh></v>
 <v t="kmolII_lite.20140603221750.1807"><vh>@edit remsub6.py</vh></v>
@@ -71,22 +90,45 @@ expanded="2014spring.20140508134612.2221,"><vh>@file cmsimply.py</vh></v>
 </v>
 <v t="kmolII_lite.20140519210900.2176" a="E"><vh>@path wsgi/programs/cdag9</vh>
 <v t="kmolII_lite.20140519210900.2177"><vh>@edit __init__.py</vh></v>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3d1587a4dd32ffff569f7c34d1ca7e3c3509b448
 </v>
 <v t="2014spring.20140513154549.2225" a="E"><vh>@path wsgi/programs/cdag10</vh>
 <v t="2014spring.20140513154549.2226"><vh>@edit __init__.py</vh></v>
 <v t="kmolII_lite.20140527100048.2066"><vh>@edit man2.py</vh></v>
 <v t="kmolII_lite.20140610090944.1816"><vh>@edit remsub6.py</vh></v>
 </v>
+<<<<<<< HEAD
 <v t="kmolII_lite.20140519204745.1773" a="E"><vh>@path wsgi/programs/cdag11</vh>
+=======
+
+<v t="2014spring.20140513154549.2221" a="E"><vh>@path wsgi/programs/cdag14</vh>
+
+<v t="kmolII_lite.20140519204745.1773"><vh>@path wsgi/programs/cdag11</vh>
+>>>>>>> 3d1587a4dd32ffff569f7c34d1ca7e3c3509b448
 <v t="kmolII_lite.20140519204745.1774"><vh>@edit __init__.py</vh></v>
 </v>
 <v t="kmolII_lite.20140520211255.2555" a="E"><vh>@path wsgi/programs/cdag12</vh>
 <v t="kmolII_lite.20140520211255.2556"><vh>@edit __init__.py</vh></v>
 </v>
+<<<<<<< HEAD
 <v t="2014pythonE.20140617115728.1914" a="E"><vh>@path wsgi/programs/cdag13</vh>
 <v t="2014pythonE.20140617115728.1915"><vh>@edit __init__.py</vh></v>
 </v>
 <v t="2014spring.20140513154549.2221" a="E"><vh>@path wsgi/programs/cdag14</vh>
+=======
+<v t="2014spring.20140513154549.2221"><vh>@path wsgi/programs/cdag14</vh>
+
+=======
+</v>
+<v t="2014spring.20140513154549.2225"><vh>@path wsgi/programs/cdag10</vh>
+<v t="2014spring.20140513154549.2226"><vh>@edit __init__.py</vh></v>
+</v>
+<v t="2014spring.20140513154549.2221"><vh>@path wsgi/programs/cdag14</vh>
+>>>>>>> b2c72e15fbb2bc438ab2b56bfe0378d74b3863e6
+>>>>>>> 3d1587a4dd32ffff569f7c34d1ca7e3c3509b448
 <v t="2014spring.20140513154549.2222"><vh>@edit __init__.py</vh></v>
 </v>
 <v t="2014spring.20140513154549.2229" a="E"><vh>@path wsgi/programs/cdag16</vh>
@@ -96,12 +138,23 @@ expanded="2014spring.20140508134612.2221,"><vh>@file cmsimply.py</vh></v>
 <v t="2014spring.20140513092629.2151" a="E"><vh>@path wsgi/programs/cdag17</vh>
 <v t="2014spring.20140513092629.2152"><vh>@edit __init__.py</vh></v>
 </v>
-<v t="2014spring.20140506174436.1831" a="E"><vh>@path wsgi/programs/cdag30</vh>
+<v t="2014spring.20140506174436.1831"><vh>@path wsgi/programs/cdag30</vh>
 <v t="2014spring.20140506174436.1832"><vh>@edit __init__.py</vh></v>
 <v t="2014spring.20140513154549.2534"><vh>@edit man.py</vh></v>
+<<<<<<< HEAD
 <v t="2014spring.20140521133830.2641"><vh>@edit man2.py</vh></v>
 <v t="2014spring.20140529085742.2200"><vh>@edit remsub6.py</vh></v>
 <v t="2014spring.20140612075518.1982"><vh>@edit gear.py</vh></v>
+=======
+<<<<<<< HEAD
+
+<v t="2014spring.20140521133830.2641"><vh>@edit man2.py</vh></v>
+<v t="2014spring.20140529085742.2200"><vh>@edit remsub6.py</vh></v>
+<v t="2014spring.20140612075518.1982"><vh>@edit gear.py</vh></v>
+
+=======
+>>>>>>> b2c72e15fbb2bc438ab2b56bfe0378d74b3863e6
+>>>>>>> 3d1587a4dd32ffff569f7c34d1ca7e3c3509b448
 </v>
 </v>
 <v t="course-mde-tw.20140417093332.2058" a="E"><vh>利用 pandoc 進行格式轉換</vh>
@@ -172,6 +225,407 @@ expanded="2014spring.20140508134612.2221,"><vh>@file cmsimply.py</vh></v>
 </vnodes>
 <tnodes>
 <t tx="123.20140502221015.1628"></t>
+<t tx="123.20140616200552.2065">@language javascript
+/*設計一個零件組立函示
+get 組立
+get part
+抓取約束元素 in part and asm
+選擇約束型式
+應用在 part 上
+*/
+/*
+軸面接
+axis_plane_assembly(session, assembly, transf, featID, constrain_way, part2, axis1, plane1, axis2, plane2)
+====================
+assembly 組立檔案
+transf 座標矩陣
+feadID 要組裝的父
+part2 要組裝的子
+ 
+constrain_way 參數
+1 對齊 對齊
+2 對齊 貼合
+else 按照 1
+ 
+plane1~plane2 要組裝的父 參考面
+plane3~plane4 要組裝的子 參考面
+*/
+function axis_plane_assembly(file_location, session, assembly, transf, featID, constrain_way, axis1, plane1, axis2, plane2) {
+    //設定part2 路徑
+    var descr = pfcCreate("pfcModelDescriptor").CreateFromFileName(file_location);
+    //嘗試從 session 中取得 part2
+    var componentModel = session.GetModelFromDescr(descr);
+    //取得失敗 status null
+    if (componentModel == null) {
+        document.write("在session 取得不到零件" + file_location);
+        //從路逕取得 part2
+        componentModel = session.RetrieveModel(descr);
+        //仍然取得失敗 表示無此零件
+        if (componentModel == null) {
+            // 此發錯誤
+            throw new Error(0, "Current componentModel is not loaded.");
+        }
+    }
+    //假如 part2 有取得到
+    if (componentModel != void null) {
+        //將part2 放入 組立檔案, part2 在組立檔案裡面為 組立 component
+        var asmcomp = assembly.AssembleComponent(componentModel, transf);
+    }
+ 
+    //組立父 featID list 形態, 為整數型態 list
+    var ids = pfcCreate("intseq");
+    //當有提供 要組裝的父
+    if (featID != -1) {
+        //將要組裝的父 加入 list
+        ids.Append(featID);
+        //取得組裝路徑
+        //建立路徑變數，CreateComponentPath:回傳組件的路徑物件，把組立模型和的ID路徑給所需的組件。
+        var subPath = pfcCreate("MpfcAssembly").CreateComponentPath(assembly, ids);
+        var subassembly = subPath.Leaf;
+    } else {
+        // 假如沒有提供 要組裝的父
+        // asm 基本 就當作父零件
+        var subassembly = assembly;
+        //取得組裝路徑
+        var subPath = pfcCreate("MpfcAssembly").CreateComponentPath(assembly, ids);
+    }
+ 
+    //父參考 element
+    var asmDatums = new Array(axis1, plane1);
+    //子參考 element
+    var compDatums = new Array(axis2, plane2);
+ 
+    //約數型態 ALIGN2
+    if (constrain_way == 1) {
+        var relation = new Array(pfcCreate("pfcComponentConstraintType").ASM_CONSTRAINT_ALIGN, pfcCreate("pfcComponentConstraintType").ASM_CONSTRAINT_MATE);
+    } else if (constrain_way == 2) {
+        var relation = new Array(pfcCreate("pfcComponentConstraintType").ASM_CONSTRAINT_ALIGN, pfcCreate("pfcComponentConstraintType").ASM_CONSTRAINT_ALIGN);
+    } else {
+        var relation = new Array(pfcCreate("pfcComponentConstraintType").ASM_CONSTRAINT_ALIGN, pfcCreate("pfcComponentConstraintType").ASM_CONSTRAINT_MATE);
+ 
+    }
+ 
+    //選擇元素 形態 (ITEM_AXIS) 軸 (ITEM_SURFACE) 面
+    var relationItem = new Array(pfcCreate("pfcModelItemType").ITEM_AXIS, pfcCreate("pfcModelItemType").ITEM_SURFACE);
+    //約束 list 等下要應用於 子
+    var constrs = pfcCreate("pfcComponentConstraints");
+ 
+    for (var i = 0; i &lt; 2; i++) {
+        //選擇 父元素
+        var asmItem = subassembly.GetItemByName(relationItem[i], asmDatums[i]);
+        if (asmItem == void null) {
+            interactFlag = true;
+            continue;
+        }
+        //選擇 子元素
+        var compItem = componentModel.GetItemByName(relationItem[i], compDatums[i]);
+        if (compItem == void null) {
+            interactFlag = true;
+            continue;
+        }
+ 
+        //採用互動式設定相關的變數
+        var MpfcSelect = pfcCreate("MpfcSelect");
+        //互動式設定 選擇元素 父
+        var asmSel = MpfcSelect.CreateModelItemSelection(asmItem, subPath);
+        //互動式設定 選擇元素 子
+        var compSel = MpfcSelect.CreateModelItemSelection(compItem, void null);
+        //選擇約束形態
+        var constr = pfcCreate("pfcComponentConstraint").Create(relation[i]);
+        //約束選擇 剛剛得父元素
+        constr.AssemblyReference = asmSel;
+        //約束選擇 剛剛得子元素
+        constr.ComponentReference = compSel;
+        //設定約束屬性
+        constr.Attributes = pfcCreate("pfcConstraintAttributes").Create(true, false);
+        //加入此約束 至 約束 list
+        constrs.Append(constr);
+    }
+    //約束 list應用至 子
+    asmcomp.SetConstraints(constrs, void null);
+    //回傳 component id
+    return asmcomp.Id;
+}
+// 以上為 axis_plane_assembly() 函式
+/*
+三面接
+three_plane_assembly(session, assembly, transf, featID, constrain_way, part2, plane1, plane2, plane3, plane4, plane5, plane6)
+=====================
+assembly 組立檔案
+transf 座標矩陣
+feadID 要組裝的父
+part2 要組裝的子
+ 
+constrain_way 參數
+1 對齊
+2 貼合
+else 按照 1
+ 
+plane1~plane3 要組裝的父 參考面
+plane4~plane6 要組裝的子 參考面
+*/
+function three_plane_assembly(file_location, session, assembly, transf, featID, constrain_way, plane1, plane2, plane3, plane4, plane5, plane6) {
+    var descr = pfcCreate("pfcModelDescriptor").CreateFromFileName(file_location);
+    var componentModel = session.GetModelFromDescr(descr);
+    if (componentModel == null) {
+        document.write("在session 取得不到零件" + file_location);
+        componentModel = session.RetrieveModel(descr);
+        if (componentModel == null) {
+            throw new Error(0, "Current componentModel is not loaded.");
+        }
+    }
+    if (componentModel != void null) {
+        var asmcomp = assembly.AssembleComponent(componentModel, transf);
+    }
+    var ids = pfcCreate("intseq");
+    //假如  asm 有零件時候
+    if (featID != -1) {
+ 
+        ids.Append(featID);
+        var subPath = pfcCreate("MpfcAssembly").CreateComponentPath(assembly, ids);
+        var subassembly = subPath.Leaf;
+    }
+    // 假如是第一個零件 asm 就當作父零件
+    else {
+        var subassembly = assembly;
+        var subPath = pfcCreate("MpfcAssembly").CreateComponentPath(assembly, ids);
+    }
+ 
+ 
+    var constrs = pfcCreate("pfcComponentConstraints");
+    var asmDatums = new Array(plane1, plane2, plane3);
+    var compDatums = new Array(plane4, plane5, plane6);
+    var MpfcSelect = pfcCreate("MpfcSelect");
+    for (var i = 0; i &lt; 3; i++) {
+        var asmItem = subassembly.GetItemByName(pfcCreate("pfcModelItemType").ITEM_SURFACE, asmDatums[i]);
+ 
+        if (asmItem == void null) {
+            interactFlag = true;
+            continue;
+        }
+        var compItem = componentModel.GetItemByName(pfcCreate("pfcModelItemType").ITEM_SURFACE, compDatums[i]);
+        if (compItem == void null) {
+            interactFlag = true;
+            continue;
+        }
+        var asmSel = MpfcSelect.CreateModelItemSelection(asmItem, subPath);
+        var compSel = MpfcSelect.CreateModelItemSelection(compItem, void null);
+        if (constrain_way == 1) {
+            var constr = pfcCreate("pfcComponentConstraint").Create(pfcCreate("pfcComponentConstraintType").ASM_CONSTRAINT_ALIGN);
+        } else if (constrain_way == 2) {
+            var constr = pfcCreate("pfcComponentConstraint").Create(pfcCreate("pfcComponentConstraintType").ASM_CONSTRAINT_MATE);
+        } else {
+            var constr = pfcCreate("pfcComponentConstraint").Create(pfcCreate("pfcComponentConstraintType").ASM_CONSTRAINT_ALIGN);
+        }
+        constr.AssemblyReference = asmSel;
+        constr.ComponentReference = compSel;
+        constr.Attributes = pfcCreate("pfcConstraintAttributes").Create(false, false);
+        constrs.Append(constr);
+    }
+    asmcomp.SetConstraints(constrs, void null);
+    return asmcomp.Id;
+}
+// 以上為 three_plane_assembly() 函式
+ 
+ 
+//兩面一軸
+function one_axis_two_plane_assembly(file_location, session, assembly, transf, featID, constrain_way, axis1, plane1_1, plane1_2, axis2, plane2_1, plane2_2) {
+    //設定part2 路徑
+    var descr = pfcCreate("pfcModelDescriptor").CreateFromFileName(file_location);
+    //嘗試從 session 中取得 part2
+    var componentModel = session.GetModelFromDescr(descr);
+    //取得失敗 status null
+    if (componentModel == null) {
+        document.write("在session 取得不到零件" + file_location);
+        //從路逕取得 part2
+        componentModel = session.RetrieveModel(descr);
+        //仍然取得失敗 表示無此零件
+        if (componentModel == null) {
+            // 此發錯誤
+            throw new Error(0, "Current componentModel is not loaded.");
+        }
+    }
+    //假如 part2 有取得到
+    if (componentModel != void null) {
+        //將part2 放入 組立檔案, part2 在組立檔案裡面為 組立 component
+        var asmcomp = assembly.AssembleComponent(componentModel, transf);
+    }
+ 
+    //組立父 featID list 形態, 為整數型態 list
+    var ids = pfcCreate("intseq");
+    //當有提供 要組裝的父
+    if (featID != -1) {
+        //將要組裝的父 加入 list
+        ids.Append(featID);
+        //取得組裝路徑
+        //建立路徑變數，CreateComponentPath:回傳組件的路徑物件，把組立模型和的ID路徑給所需的組件。
+        var subPath = pfcCreate("MpfcAssembly").CreateComponentPath(assembly, ids);
+        var subassembly = subPath.Leaf;
+    } else {
+        // 假如沒有提供 要組裝的父
+        // asm 基本 就當作父零件
+        var subassembly = assembly;
+        //取得組裝路徑
+        var subPath = pfcCreate("MpfcAssembly").CreateComponentPath(assembly, ids);
+    }
+ 
+    //父參考 element
+    var asmDatums = new Array(axis1, plane1_1, plane1_2);
+    //子參考 element
+    var compDatums = new Array(axis2, plane2_1, plane2_2);
+ 
+    //約數型態
+    var ConstraintType = pfcCreate("pfcComponentConstraintType");
+    if (constrain_way == 1) {
+        var relation = new Array(ConstraintType.ASM_CONSTRAINT_ALIGN, ConstraintType.ASM_CONSTRAINT_MATE, ConstraintType.ASM_CONSTRAINT_AUTO);
+    } else if (constrain_way == 2) {
+        var relation = new Array(ConstraintType.ASM_CONSTRAINT_ALIGN, ConstraintType.ASM_CONSTRAINT_ALIGN, ConstraintType.ASM_CONSTRAINT_MATE);
+    } else if (constrain_way == 3) {
+        var relation = new Array(ConstraintType.ASM_CONSTRAINT_ALIGN, ConstraintType.ASM_CONSTRAINT_MATE, ConstraintType.ASM_CONSTRAINT_MATE);
+    } else {
+        var relation = new Array(ConstraintType.ASM_CONSTRAINT_ALIGN, ConstraintType.ASM_CONSTRAINT_ALIGN, ConstraintType.ASM_CONSTRAINT_ALIGN);
+ 
+    }
+ 
+    //選擇元素 形態 (ITEM_AXIS) 軸 (ITEM_SURFACE) 面
+    var relationItem = new Array(pfcCreate("pfcModelItemType").ITEM_AXIS, pfcCreate("pfcModelItemType").ITEM_SURFACE, pfcCreate("pfcModelItemType").ITEM_SURFACE);
+    //約束 list 等下要應用於 子
+    var constrs = pfcCreate("pfcComponentConstraints");
+ 
+    for (var i = 0; i &lt; 3; i++) {
+        //選擇 父元素
+        var asmItem = subassembly.GetItemByName(relationItem[i], asmDatums[i]);
+        if (asmItem == void null) {
+            interactFlag = true;
+            continue;
+        }
+        //選擇 子元素
+        var compItem = componentModel.GetItemByName(relationItem[i], compDatums[i]);
+        if (compItem == void null) {
+            interactFlag = true;
+            continue;
+        }
+ 
+        //採用互動式設定相關的變數
+        var MpfcSelect = pfcCreate("MpfcSelect");
+        //互動式設定 選擇元素 父
+        var asmSel = MpfcSelect.CreateModelItemSelection(asmItem, subPath);
+        //互動式設定 選擇元素 子
+        var compSel = MpfcSelect.CreateModelItemSelection(compItem, void null);
+        //選擇約束形態
+        var constr = pfcCreate("pfcComponentConstraint").Create(relation[i]);
+        //約束選擇 剛剛得父元素
+        constr.AssemblyReference = asmSel;
+        //約束選擇 剛剛得子元素
+        constr.ComponentReference = compSel;
+        //設定約束屬性
+        //constr.Attributes = pfcCreate("pfcConstraintAttributes").Create(true, false);
+        constr.Attributes = pfcCreate("pfcConstraintAttributes").Create(true, false);
+        //加入此約束 至 約束 list
+        constrs.Append(constr);
+    }
+    //約束 list應用至 子
+    asmcomp.SetConstraints(constrs, void null);
+    //回傳 component id
+    return asmcomp.Id;
+}
+ 
+ 
+//
+// 假如 Creo 所在的操作系統不是 Windows 環境
+if (!pfcIsWindows()) {
+    // 則啟動對應的 UniversalXPConnect 執行權限 (等同 Windows 下的 ActiveX)
+    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+}
+// pfcGetProESession() 是位於 pfcUtils.js 中的函式, 確定此 JavaScript 是在嵌入式瀏覽器中執行
+var session = pfcGetProESession();
+// 設定 config option, 不要使用元件組立流程中內建的假設約束條件
+session.SetConfigOption("comp_placement_assumptions", "no");
+// 建立擺放零件的位置矩陣, Pro/Web.Link 中的變數無法直接建立, 必須透過 pfcCreate() 建立
+var identityMatrix = pfcCreate("pfcMatrix3D");
+// 建立 identity 位置矩陣
+for (var x = 0; x &lt; 4; x++) {
+    for (var y = 0; y &lt; 4; y++) {
+        if (x == y) {
+            identityMatrix.Set(x, y, 1.0);
+        } else {
+            identityMatrix.Set(x, y, 0.0);
+        }
+    }
+}
+// 利用 identityMatrix 建立 transf 座標轉換矩陣
+var transf = pfcCreate("pfcTransform3D").Create(identityMatrix);
+// 取得目前的工作目錄
+var currentDir = session.getCurrentDirectory();
+// 以目前已開檔的空白組立檔案, 作為 model
+var model = session.CurrentModel;
+// 查驗有無 model, 或 model 類別是否為組立件, 若不符合條件則丟出錯誤訊息
+if (model == void null || model.Type != pfcCreate("pfcModelType").MDL_ASSEMBLY)
+    throw new Error(0, "Current model is not an assembly.");
+// 將此模型設為組立物件
+var assembly = model;
+ 
+/*
+three_plane_assembly(session, assembly, transf, featID, constrain_way, part2, plane1, plane2, plane3, plane4, plane5, plane6)
+=====================
+assembly 組立檔案
+transf 座標矩陣
+feadID 要組裝的父
+part2 要組裝的子
+ 
+constrain_way 參數
+1 對齊
+2 貼合
+else 按照 1
+ 
+plane1~plane3 要組裝的父 參考面
+plane4~plane6 要組裝的子 參考面
+ 
+axis_plane_assembly(session, assembly, transf, featID, constrain_way, part2, axis1, plane1, axis2, plane2)
+====================
+assembly 組立檔案
+transf 座標矩陣
+feadID 要組裝的父
+part2 要組裝的子
+ 
+constrain_way 參數
+1 對齊 對齊
+2 對齊 貼合
+else 按照 1
+ 
+plane1~plane2 要組裝的父 參考面
+plane3~plane4 要組裝的子 參考面
+*/
+ 
+var work_directory = 'V:/lego/'
+//function three_plane_assembly(file_location, session, assembly, transf, featID, constrain_way, plane1, plane2, plane3, plane4, plane5, plane6) {
+var body_id = three_plane_assembly(work_directory + 'beam_angle.prt', session, assembly, transf, -1, 1, "ASM_FRONT", "ASM_TOP", "ASM_RIGHT", "FRONT", "TOP", "RIGHT");
+//function one_axis_two_plane_assembly(file_location, session, assembly, transf, featID, constrain_way, axis1, plane1_1, plane1_2, axis2, plane2_1, plane2_2)
+var alex_10 = one_axis_two_plane_assembly(work_directory + 'axle_10.prt', session, assembly, transf, body_id, 1, "A_25", "FRONT", "TOP", "A_1", "FRONT", "TOP");
+ 
+var alex_5 = one_axis_two_plane_assembly(work_directory + 'axle_5.prt', session, assembly, transf, body_id, 1, "A_26", "DTM1", "TOP", "A_1", "RIGHT", "TOP");
+ 
+var crossblock_2_left = one_axis_two_plane_assembly(work_directory + 'crossblock_2.prt', session, assembly, transf, body_id, 1, "A_25", "DTM3","FRONT",  "A_16", "DTM4", "DTM1");
+ 
+var crossblock_2_right = one_axis_two_plane_assembly(work_directory + 'crossblock_2.prt', session, assembly, transf, body_id, 1, "A_25", "DTM2","FRONT",  "A_16", "DTM5", "DTM1");
+ 
+var crossblock_2_left_front = one_axis_two_plane_assembly(work_directory + 'crossblock_2.prt', session, assembly, transf, body_id, 2, "A_26", "DTM4", "DTM2",  "A_16", "DTM1", "DTM4");
+ 
+var crossblock_2_right_front = one_axis_two_plane_assembly(work_directory + 'crossblock_2.prt', session, assembly, transf, body_id, 2, "A_26", "DTM4", "DTM3",  "A_16", "DTM1", "DTM5");
+ 
+var crossblock_2_left_2 = one_axis_two_plane_assembly(work_directory + 'crossblock_2.prt', session, assembly, transf, crossblock_2_left, 2, "A_16", "DTM1", "DTM5",  "A_16", "DTM1", "DTM4");
+ 
+var crossblock_2_right_2 = one_axis_two_plane_assembly(work_directory + 'crossblock_2.prt', session, assembly, transf, crossblock_2_right, 2, "A_16", "DTM1", "DTM4",  "A_16", "DTM1", "DTM5");
+ 
+var conn_3_left = axis_plane_assembly(work_directory + 'conn_3.prt', session, assembly, transf, crossblock_2_left, 1, "A_17", "DTM10", "A_20", "DTM2");
+ 
+var conn_3_left = axis_plane_assembly(work_directory + 'conn_3.prt', session, assembly, transf, crossblock_2_right, 1, "A_17", "DTM10", "A_20", "DTM2");
+ 
+var beam_3 = one_axis_two_plane_assembly(work_directory + 'beam_3.prt', session, assembly, transf, crossblock_2_right, 3,
+    "A_17", "DTM7","FRONT",  "A_37", "BOTTOM", "RIGHT");
+ 
+assembly.Regenerate(void null);
+session.GetModelWindow(assembly).Repaint();</t>
 <t tx="2014pythonE.20140422152422.1669">配合 2014cda 專案
 
 2014cdaproject@gmail.com
@@ -295,7 +749,7 @@ d = c.scanAllDirectives(p)
 filenames = ['title.txt', '2bg1/doc.txt', '2bg2/doc.txt', '2bg3/doc.txt', '2bg5/doc.txt', '2bg15/doc.txt', '2bg13/doc.txt', '2bg9/doc.txt']
 '''
 # 定義要合併檔案的共同目錄
-directory = "V:/project/2014cda/wsgi/doc/"
+directory = "V:/2014cda/wsgi/doc/"
 # 定義一個空數列
 filenames = []
 for (path, dirs, files) in os.walk(directory):
@@ -308,7 +762,7 @@ filenames.sort(key=natural_keys)
 # 利用 insert 以 0 為索引, 將 title.txt 放在數列最前頭
 filenames.insert(0, directory+"title.txt")
 # 以下將依據 filenames 數列中的檔案合併為 result.txt 之後再進行文書處理轉換
-with open('V:/project/2014cda/wsgi/pandoc/result.txt', 'w', encoding="utf-8") as outfile:
+with open('V:/2014cda/wsgi/pandoc/result.txt', 'w', encoding="utf-8") as outfile:
     for fname in filenames:
         #fname = directory+fname
         with open(fname, encoding="utf-8") as infile:
@@ -316,14 +770,12 @@ with open('V:/project/2014cda/wsgi/pandoc/result.txt', 'w', encoding="utf-8") as
                 outfile.write(line)
             outfile.write("\n\n")
 
-
 # 將目錄指到 pandoc
 mandir = d.get('path') + "/wsgi/pandoc"
 g.es(mandir)
 os.chdir(mandir)
 # 先轉一份 html 
 os.system("V:\\apps\\pandoc\\pandoc.exe -s result.txt -o result.html")
-
 # 利用 pandoc 將 demo.txt 轉為 demo.tex, 在此決定是否要有 toc
 os.system("V:\\apps\\pandoc\\pandoc.exe -s result.txt --toc -o result.tex")
 # 中文設定必須要放在 begin document 之前
@@ -997,8 +1449,6 @@ Github 免費帳號特性:
 免費帳號只能使用 public 倉儲
 
 沒有限制 collaborators 個數, 適合多協同人員執行開放專案使用
-
-W16 周更新
 </t>
 <t tx="course-mde-tw.20140422171455.1745">在 Github 倉儲中將 OpenShift 倉儲設為 remote 倉儲
 
