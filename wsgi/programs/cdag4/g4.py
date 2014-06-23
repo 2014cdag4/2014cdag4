@@ -11,7 +11,7 @@ root.cdag30.man = cdag30_man.MAN()
 /cdag30/man/assembly
 # 呼叫 man.py 中 MAN 類別的 assembly 方法
 '''
-class Test(object):
+class phone(object):
     # 各組利用 index 引導隨後的程式執行
     @cherrypy.expose
     def index(self, *args, **kwargs):
